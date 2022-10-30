@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="704.0" prefWidth="1191.0" style="-fx-background-color: #dbf4ff;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javamini.signupcontr2">
+   <children>
+      <ImageView blendMode="COLOR_BURN" fitHeight="704.0" fitWidth="1191.0" layoutX="68.0" opacity="0.28" pickOnBounds="true" preserveRatio="true" style="-fx-blend-mode: multiply;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="68.0" AnchorPane.rightAnchor="67.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@images/A1.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Button_Signup" alignment="CENTER" blendMode="MULTIPLY" layoutX="661.0" layoutY="596.0" mnemonicParsing="false" onAction="#onlogin" prefHeight="18.0" prefWidth="72.0" style="-fx-background-color: #9c9c9c; -fx-background-radius: 5;" text="Login">
+         <font>
+            <Font name="Century Schoolbook Bold" size="13.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.5176211285696156" centerY="0.5" cycleMethod="REFLECT" radius="0.6192660725444828">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Button>
+      <Button fx:id="Button_Login" blendMode="MULTIPLY" layoutX="506.0" layoutY="545.0" mnemonicParsing="false" onAction="#onsignup2" prefHeight="30.0" prefWidth="200.0" style="-fx-background-color: #00265c; -fx-background-radius: 10;" text="Sign up">
+         <textFill>
+            <RadialGradient centerX="0.5176211285696156" centerY="0.5" cycleMethod="REFLECT" radius="0.6192660725444828">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.45629629492759705" green="0.7101611495018005" blue="0.8105263113975525" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font name="Century Schoolbook Bold" size="16.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="397.0" fitWidth="401.0" layoutX="407.0" layoutY="-51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/A2.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="tf_email" alignment="CENTER" blendMode="MULTIPLY" layoutX="506.0" layoutY="390.0" prefHeight="30.0" prefWidth="200.0" promptText="Enter Email Address " style="-fx-background-radius: 5;">
+         <font>
+            <Font name="Century Schoolbook Bold" size="13.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="tf_pass" alignment="CENTER" blendMode="MULTIPLY" layoutX="505.0" layoutY="430.0" prefHeight="30.0" prefWidth="200.0" promptText="Enter Password" style="-fx-background-radius: 5;">
+         <font>
+            <Font name="Century Schoolbook Bold" size="13.0" />
+         </font>
+      </PasswordField>
+      <Label fx:id="Label_abc" layoutX="466.0" layoutY="599.0" text="Already have an account?" textFill="#00265c">
+         <font>
+            <Font name="Century Schoolbook Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label_xyz" alignment="CENTER" blendMode="DARKEN" layoutX="477.0" layoutY="293.0" prefHeight="23.0" prefWidth="256.0" text="Sign up to continue access" textFill="#00265c">
+         <font>
+            <Font name="Century Schoolbook Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tf_name" alignment="CENTER" blendMode="MULTIPLY" layoutX="506.0" layoutY="346.0" prefHeight="30.0" prefWidth="200.0" promptText="Enter Name " style="-fx-background-radius: 5;">
+         <font>
+            <Font name="Century Schoolbook Bold" size="13.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="tf_cpass" alignment="CENTER" blendMode="MULTIPLY" layoutX="505.0" layoutY="474.0" prefHeight="30.0" prefWidth="200.0" promptText="Confirm Password" style="-fx-background-radius: 5;">
+         <font>
+            <Font name="Century Schoolbook Bold" size="13.0" />
+         </font>
+      </PasswordField>
+      <Label fx:id="Labelsignmsg" alignment="CENTER" layoutX="478.0" layoutY="515.0" prefHeight="16.0" prefWidth="256.0" textFill="#b90000">
+         <font>
+            <Font name="Century Schoolbook Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

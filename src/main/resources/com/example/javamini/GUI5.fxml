@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="704.0" prefWidth="1191.0" style="-fx-background-color: #dbf4ff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javamini.saveattend6">
+   <children>
+      <ImageView blendMode="COLOR_BURN" fitHeight="710.0" fitWidth="1154.0" layoutX="63.0" layoutY="-3.0" opacity="0.15" pickOnBounds="true" preserveRatio="true" style="-fx-blend-mode: multiply;">
+         <image>
+            <Image url="@images/aaa.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane blendMode="MULTIPLY" prefHeight="704.0" prefWidth="262.0" style="-fx-background-color: #002a5e;">
+         <children>
+            <Button layoutX="6.0" layoutY="590.0" mnemonicParsing="false" onAction="#onLogout" prefHeight="100.0" prefWidth="250.0" text="Log out" textFill="#00265c">
+               <font>
+                  <Font name="Century Schoolbook Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="6.0" layoutY="471.0" mnemonicParsing="false" onAction="#onstudent" prefHeight="100.0" prefWidth="250.0" text="Student" textFill="#00265c">
+               <font>
+                  <Font name="Century Schoolbook Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="6.0" layoutY="352.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="250.0" style="-fx-background-color: #696969;" text="Course" textFill="#fafafa">
+               <font>
+                  <Font name="Century Schoolbook Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="6.0" layoutY="234.0" mnemonicParsing="false" onAction="#onprofile" prefHeight="100.0" prefWidth="250.0" text="Profile" textFill="#00265c">
+               <font>
+                  <Font name="Century Schoolbook Bold" size="20.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="178.0" fitWidth="222.0" layoutX="20.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/BRAIN.png" />
+               </image>
+            </ImageView>
+            <Button blendMode="LIGHTEN" layoutX="178.0" layoutY="14.0" mnemonicParsing="false" onAction="#onback" prefHeight="24.0" prefWidth="63.0" style="-fx-background-radius: 5;" text="Back">
+               <font>
+                  <Font name="Century Schoolbook Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="400.0" fitWidth="400.0" layoutX="501.0" layoutY="152.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/A2.png" />
+         </image>
+      </ImageView>
+      <AnchorPane blendMode="MULTIPLY" layoutX="260.0" layoutY="86.0" prefHeight="36.0" prefWidth="932.0" style="-fx-background-color: #d4cfcf;" />
+      <Separator layoutX="350.0" layoutY="86.0" orientation="VERTICAL" prefHeight="618.0" prefWidth="0.0" style="-fx-background-color: #000000;" />
+      <Separator layoutX="617.0" layoutY="86.0" orientation="VERTICAL" prefHeight="618.0" prefWidth="0.0" style="-fx-background-color: #000000;" />
+      <Separator layoutX="901.0" layoutY="86.0" orientation="VERTICAL" prefHeight="618.0" prefWidth="0.0" style="-fx-background-color: #000000;" />
+      <TableView blendMode="MULTIPLY" layoutX="262.0" layoutY="92.0" prefHeight="612.0" prefWidth="932.0">
+        <columns>
+          <TableColumn prefWidth="96.0" text="#" />
+            <TableColumn prefWidth="261.60003662109375" text="STUDENT NAME" />
+            <TableColumn prefWidth="287.20001220703125" text="STUDENT EMAIL" />
+            <TableColumn minWidth="0.0" prefWidth="285.59979248046875" text="ATTENDANCE STATUS" />
+        </columns>
+      </TableView>
+      <Button blendMode="MULTIPLY" layoutX="981.0" layoutY="139.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="139.0" text="Select all" textFill="#002a5e">
+         <font>
+            <Font name="Century Schoolbook Bold" size="13.0" />
+         </font>
+      </Button>
+      <RadioButton layoutX="1040.0" layoutY="179.0" mnemonicParsing="false">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </RadioButton>
+      <Button blendMode="MULTIPLY" layoutX="1006.0" layoutY="658.0" mnemonicParsing="false" text="Save attendance" textFill="#002a5e">
+         <font>
+            <Font name="Century Schoolbook Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonsessions" blendMode="MULTIPLY" layoutX="262.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="461.0" style="-fx-background-color: #696969;" text="SESSIONS" textFill="WHITE">
+         <font>
+            <Font name="Century Schoolbook Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button blendMode="MULTIPLY" layoutX="721.0" mnemonicParsing="false" onAction="#onaddsessions" prefHeight="75.0" prefWidth="473.0" text="ADD SESSION (S)" textFill="#002a5e">
+         <font>
+            <Font name="Century Schoolbook Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
