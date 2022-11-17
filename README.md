@@ -30,8 +30,7 @@ Arnab Das : https://github.com/arnab1509
 
 | Features                          | 
 |-----------------------------------|
-| Add students data                 | 
-| Add session                       | 
-| Add attendance                    |
-| Student's info                    |
+| Track students attendance         | 
+| Access to students data           | 
+| Access to previous attendance record|
 #
