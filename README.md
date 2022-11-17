@@ -30,7 +30,7 @@ Arnab Das : https://github.com/arnab1509
 
 | Features                          | 
 |-----------------------------------|
-| Track students attendance         | 
+| Track and record students attendance         | 
 | Access to students data           | 
 | Access to previous attendance record|
 #
