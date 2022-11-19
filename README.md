@@ -18,7 +18,7 @@ Arnab Das : https://github.com/arnab1509
 * Intellij IDE
 * JavaFX 
 * Scene-builder
-* MySQL
+* MySQL workbench
 #
 ## What is TrackSmart ?
 * An attendance management system. 
